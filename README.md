@@ -17,7 +17,7 @@ library(mapview)
 ## Installing VTrack from github if you dont have the recent version
 # devtools::install_github("rossdwyer/VTrack")
 library(VTrack)
-source("2020-03-28_lcDistance.R")
+source("https://raw.githubusercontent.com/vinayudyawer/LeastCostUD/main/2020-03-28_lcDistance.R")
 ```
 <br>
 
