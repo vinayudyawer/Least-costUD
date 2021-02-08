@@ -55,7 +55,7 @@ mapview(statinfo.sp, layer = "Receivers", legend = F, homebutton = F, alpha.regi
   mapview(map, alpha = 0, col.regions = "grey", legend =F, layer = "Coastline polygon", homebutton = F) +
   mapview(coa.data, layer = "COA positions", legend =F, homebutton = F, alpha = 0, col.regions = 2, size = 2)
 ```
-<img src="lcDistance_Vignette_files/figure-html/Fig1.png"/>
+<img src="vignette/figure-html/Fig1.png"/>
 
 <br>
 
@@ -76,7 +76,7 @@ cost.raster %>%
   theme_bw()
   
 ```
-<img src="lcDistance_Vignette_files/figure-html/unnamed-chunk-4-1.png"/>
+<img src="vignette/figure-html/unnamed-chunk-4-1.png"/>
 
 <br>
 
@@ -99,7 +99,7 @@ trans.utm %>%
   coord_fixed(expand = 0) +
   theme_bw()
 ```
-<img src="lcDistance_Vignette_files/figure-html/Fig3.png"/>
+<img src="vignette/figure-html/Fig3.png"/>
 
 <br><br>
 
@@ -159,12 +159,12 @@ contour(least.costUD$UD.raster, levels = c(50, 95), add=T)
 plot(map, add=T, border = grey(0.5))
 plot(st_geometry(statinfo.sp), pch = 20, col="red", cex=0.5, add=T)
 ```
-<img src="lcDistance_Vignette_files/figure-html/unnamed-chunk-7-1.png"/>
+<img src="vignette/figure-html/unnamed-chunk-7-1.png"/>
 
 ```{r}
 plot.lcUD(least.costUD)
 ```
-<img src="lcDistance_Vignette_files/figure-html/Fig4.png"/>
+<img src="vignette/figure-html/Fig4.png"/>
 
 
 
