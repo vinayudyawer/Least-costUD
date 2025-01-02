@@ -173,11 +173,11 @@ plot.lcUD(least.costUD)
 
 # Author
 
-Vinay Udyawer <br> <v.udyawer@aims.gov.au> <br> Australian Institute of Marine Science
+Vinay Udyawer <br> <vinay.udyawer@gmail.com>
 
 <br>
 
 **Vignette version**
-0.1.1 (28 March 2020)
+0.1.2 (12 December 2024)
 
 
